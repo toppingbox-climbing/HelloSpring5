@@ -10,11 +10,12 @@ public class Spring5App00 {
 
         // sayHello 메서드를 호출하기 위해서는
         // Spring5App00의 객체화 필요
+        //클래스를 쓰려면 클래스의 객체화를 동반 해야만 한다
         Spring5App00 app00 = new Spring5App00();
-        app00.sayHello();
+        app00.sayHello("스프링5!!");
 
     }
-    private void sayHello() {
-        System.out.println("Hello, World!!");
+    private void sayHello(String msg) {
+        System.out.println("안녕하세요," + msg);
     }
 }
