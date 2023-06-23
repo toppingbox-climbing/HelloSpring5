@@ -1,9 +1,8 @@
 package hello.spring.basic;
 
-import hello.spring.bean.Spring5Bean01;
 import hello.spring.bean.Spring5Bean02;
 
-public class SpringApp02 {
+public class Spring5App02 {
 //    public static void main(String[] args) {
 //
 //        Spring5Bean02 app02 = new Spring5Bean02();
