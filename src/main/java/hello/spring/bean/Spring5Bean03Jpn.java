@@ -1,6 +1,6 @@
 package hello.spring.bean;
 
-public class Spring5Bean03Jpn {
+public class Spring5Bean03Jpn implements Spring5Bean03 {
 
 
 
